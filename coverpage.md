@@ -1,9 +1,9 @@
-# BitShares
+# BitShares Blockchain
 
-> A delightfully simple theme system for [docsify.js](https://docsify.js.org)
+> BitShares Blockchain Developer Resources
 
-- Based on CSS custom properties
-- No packages to install or files to build
+- Concepts
+- Tutorials
 - Improved desktop and mobile experience
 - Multiple themes available
 - Legacy browser support (IE10+)
