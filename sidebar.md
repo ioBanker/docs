@@ -1,4 +1,5 @@
 - [About BitShares](/)
+- [WhitePaper](whitepaper)
 - [Markdown](markdown)
 - **Links**
 - [Official Website](https://bitshares.github.io)
