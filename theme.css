@@ -668,8 +668,8 @@ pre[data-lang]::selection,pre[data-lang] ::selection,code[class*=lang-]::selecti
     left:0;
     right:0;
     background-blend-mode:var(--cover-background-blend-mode);
-    background-color:var(--cover-background-color);
-    background-image:var(--cover-background-image);
+    background-color:#001530;
+/*# background-image:var(--cover-background-image); */
     background-position:var(--cover-background-position);
     background-repeat:var(--cover-background-repeat);
     background-size:var(--cover-background-size)
