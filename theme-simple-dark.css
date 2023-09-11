@@ -1226,8 +1226,8 @@ body:not([data-platform^=Mac]) .sidebar::-webkit-scrollbar-thumb{
     border-width:var(--sidebar-toggle-border-width);
     border-style:var(--sidebar-toggle-border-style);
     border-color:var(--sidebar-toggle-border-color);
-    background:var(--sidebar-toggle-background, transparent);
-    color:var(--sidebar-toggle-icon-color)
+    background:#3EAFFF;
+    color:#FFFFFF
 }
 .sidebar-toggle span{
     position:absolute;
@@ -1690,7 +1690,7 @@ body .sidebar{
     --zoomimage-overlay-background: rgba(0, 0, 0, 0.875)
 }
 :root{
-    --sidebar-background: var(--base-background-color);
+    --sidebar-background: #001530;
     --sidebar-border-width: 0;
     --sidebar-padding: 0 25px;
     --sidebar-transition-duration: var(--duration-fast);
