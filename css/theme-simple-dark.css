@@ -1015,7 +1015,7 @@ main{
     text-align:var(--sidebar-name-text-align)
 }
 .sidebar>h1 img{
-    max-width:100%
+    max-width:70%
 }
 .sidebar>h1 .app-name-link{
     color:#FFFFFF
