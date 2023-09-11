@@ -1018,7 +1018,7 @@ main{
     max-width:100%
 }
 .sidebar>h1 .app-name-link{
-    color:var(--sidebar-name-color)
+    color:#FFFFFF
 }
 body:not([data-platform^=Mac]) .sidebar::-webkit-scrollbar{
     width:5px
@@ -1816,7 +1816,7 @@ body .sidebar{
     --sidebar-nav-link-border-color: transparent;
     --sidebar-nav-link-border-color--active: var(--theme-color);
     --sidebar-nav-link-border-width: 0 4px 0 0;
-    --sidebar-nav-link-color--active: var(--theme-color);
+    --sidebar-nav-link-color--active: #3EAFFF;
     --sidebar-nav-link-margin: 0 -25px 0 0;
     --sidebar-nav-link-text-decoration: none;
     --sidebar-nav-link-text-decoration--active: none;
