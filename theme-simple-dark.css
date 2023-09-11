@@ -1891,7 +1891,7 @@ body .sidebar{
     --search-input-border-color: var(--mono-tint1);
     --search-input-placeholder-color: rgba(255, 255, 255, 0.4);
     --search-clear-icon-color1: rgba(255, 255, 255, 0.3);
-    --sidebar-background: var(--mono-shade1);
+    --sidebar-background: #001530;
     --sidebar-border-color: var(--mono-tint1);
     --sidebar-nav-pagelink-background: no-repeat 2px calc(50% - 2.5px) / 6px 5px linear-gradient(45deg, transparent 2.75px, var(--mono-tint2) 2.75px 4.25px, transparent 4px), no-repeat 2px calc(50% + 2.5px) / 6px 5px linear-gradient(135deg, transparent 2.75px, var(--mono-tint2) 2.75px 4.25px, transparent 4px);
     --sidebar-nav-pagelink-background--loaded: no-repeat 0px center / 5px 6px linear-gradient(225deg, transparent 2.75px, var(--mono-tint2) 2.75px 4.25px, transparent 4.25px), no-repeat 5px center / 5px 6px linear-gradient(135deg, transparent 2.75px, var(--mono-tint2) 2.75px 4.25px, transparent 4.25px)
