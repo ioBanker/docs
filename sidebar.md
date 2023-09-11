@@ -3,4 +3,3 @@
 - [Markdown](markdown)
 - **Links**
 - [Official Website](https://bitshares.github.io)
-- [BitShares Group](https://www.bitsharesgroup.org)
