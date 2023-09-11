@@ -1854,7 +1854,7 @@ body .sidebar{
     --mono-tint2: hsl(var(--mono-hue), var(--mono-saturation), 35%);
     --mono-tint3: hsl(var(--mono-hue), var(--mono-saturation), 43%);
     --spinner-track-color: rgba(255, 255, 255, 0.15);
-    --base-background-color: var(--mono-base);
+    --base-background-color: #001530;
     --base-color: #d3d3d3;
     --hr-border: 1px solid var(--mono-tint2);
     --mark-background: #ffcb6b;
