@@ -1,5 +1,5 @@
 - [About BitShares](/ "BitShares - About BitShares")
-- [WhitePaper](whitepaper)
-- [Markdown](markdown)
+- [WhitePaper](whitepaper "BitShares - Whitepaper")
+- [Markdown](markdown "BitShares - markdown")
 - **Links**
 - [Official Website](https://bitshares.github.io)
