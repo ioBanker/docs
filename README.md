@@ -10,10 +10,10 @@ As an infrastructure; BitShares Blockchain is a platform built using an open sou
 
 Products Documentation Support:
 
-Decentralized Exchange (DEX).
-Decentralized User Issued Asset (UIA).
-Decentralized Market Pegged Asset (MPA) or Smart Assets (Smart Contracts).
-Decentralized Finance (DeFi).
-Decentralized Liquidity Pools (LP) and Automated Market Maker (AMM).
-Decentralized Prediction Market (PM).
-Decentralized Non-Fungible Token (NFT).
+- Decentralized Exchange (DEX).
+- Decentralized User Issued Asset (UIA).
+- Decentralized Market Pegged Asset (MPA) or Smart Assets (Smart Contracts).
+- Decentralized Finance (DeFi).
+- Decentralized Liquidity Pools (LP) and Automated Market Maker (AMM).
+- Decentralized Prediction Market (PM).
+- Decentralized Non-Fungible Token (NFT).
