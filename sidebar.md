@@ -1,4 +1,4 @@
-- [Demo](/)
+- [About BitShares](/)
 - [Markdown](markdown)
 - **Links**
 - [Github](https://github.com/jhildenbiddle/docsify-themeable)
