@@ -1,5 +1,5 @@
 - [About BitShares](/)
 - [Markdown](markdown)
 - **Links**
-- [Github](https://github.com/jhildenbiddle/docsify-themeable)
-- [NPM](https://www.npmjs.com/package/docsify-themeable)
+- [Official Website](https://bitshares.github.io)
+- [BitShares Group](https://www.bitsharesgroup.org)
