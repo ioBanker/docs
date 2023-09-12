@@ -1,15 +1,22 @@
 # BitShares Whitepaper
 
-BitShares Blockchain, as it exists today, was launched on 13th October 2015 with its community being established already in 2013. It implements an industrial-grade decentralized platform built for high-performance smart contracts with focus on the financial technologies sector.
+BitShares Blockchain was launched on 13th October 2015 with a community being established in 2013. It implements an industrial-grade decentralized platform built to process high-performance financial technologies.
 
-Furthermore, BitShares represents the first decentralized autonomous cooperation that lets holders of its core native token BTS decide on its future direction and governance aspects.
+Furthermore, BitShares represents the first decentralized autonomous cooperation or Blockchain as Organization (BaO) that enables holders of its core utility token (BTS) to decide its future direction and governance aspects. For sake of clarity and to avoid confusion with other smart contracting platforms, BitShares Blockchain implements its contracts in form of operations. Even though BitShares Blockchain comes with over 50 already implemented operations which deserve to be presented, this document focuses on the description of BitShares Blockchain as a platform, its architecture as well as its governance system using the core native token BTS.
 
-For sake of clarity and to avoid confusion with other smart contracting platforms, BitShares Blockchain implements its contracts in form of operations.
+BitShares is a technology supported by next generation entrepreneurs, investors, and developers with a common interest in finding free market solutions by leveraging the power of globally decentralized consensus and decision making. Consensus technology has the power to do for economics what the internet did for information. It can harness the combined power of all humanity to coordinate the discovery and aggregation of real-time knowledge, previously unobtainable. This knowledge can be used to more effectively coordinate the allocation of resources toward their most productive and valuable use.
 
-Even though BitShares Blockchain comes with over 50 already implemented operations which deserve to be presented, this document focuses on the description of BitShares Blockchain as a platform, its architecture as well as its governance system using the core native token BTS.
+Bitcoin is the first fully autonomous system to utilize distributed consensus technology to create a more efficient and reliable global payment network. The core innovation of Bitcoin is the Blockchain, a cryptographically secured public ledger of all accounts on the Bitcoin network that facilitates the transfer of value from one individual directly to another. For the first time in history, financial transactions over the internet no longer require a middle man to act as a trustworthy, confidential fiduciary.
 
-## Architecture
+BitShares looks to extend the innovation of the blockchain to all industries that rely upon the internet to provide their services. Whether its banking, stock exchanges, lotteries, voting, music, auctions or many others, a digital public ledger allows for the creation of distributed autonomous companies (or BaO) that provide better quality services at a fraction of the cost incurred by their more traditional, centralized counterparts. The advent of (BaO) ushers in a new paradigm in organizational structure in which companies can run without any human management and under the control of an incorruptible set of business rules. These rules are encoded in publicly auditable open source software distributed across the computers of the companies’ shareholders, who effortlessly secure the company from arbitrary control.
+
+BitShares does for business what bitcoin did for money by utilizing distributed consensus technology to create companies that are inherently global, transparent, trustworthy, efficient and most importantly profitable. BitShares has went through many changes and has done its best to stay on top of blockchain technology. BitShares is using Consensus as the mechanism by which organized people decide upon unitary rational action. While not considered technology in the traditional since, consensus “technology” is the basis of democratic governance and the coordination of free market activity first coined by Adam Smith as the “Invisible Hand.” The process of consensus decision-making allows for all participants to consent upon a resolution of action even if not the favored course of action for each individual participant. Bitcoin was the first system to integrate a fully decentralized consensus method with the modern technology of the internet and peer-to-peer networks in order to more efficiently facilitate the transfer of value through electronic communication. The proof-of-work structure that secures and maintains the Bitcoin network is one manner of organizing individuals who do not necessarily trust one another to act in the best interest of all participants of the network. The BitShares ecosystem employs Delegated Proof of Stake in order to find efficient solutions to distributed consensus decision making.
+
+## Node Architecture
 BitShares Blockchain constitutes the following components which are described individually.
+
+![aea32679b01ef5c008b226fd176fb84e_f1277](https://github.com/ioBanker/docs/assets/37595908/97989faa-aaa3-4828-b42c-a3660221fdbd)
+
 
 ### Transactions
 When users want to interact with any Blockchain, they construct so called transactions and transmit to the network (see below). These present messages that contain instructions about what operation(s) a user wants to use. A common operation is the simple transfer operation that comes with transfer-specific instructions that provides the necessary information for this action, such as the sender, receiver, the amount to transfer as well as an optional encrypted memo. To allow multiple operations to take place subsequently, multiple operations can be bundled into a single transaction.
@@ -58,11 +65,11 @@ BitShares Blockchain publicly demonstrated sustaining over 3,000 (three thousand
 
 To achieve this industry-leading performance, BitShares has borrowed lessons learned from the LMAX Exchange2, which is able to process 6 million transactions per second. Among these lessons are the following key points:
 
-● Keep everything in memory.
-● Keep the core business logic in a single thread.
-● Keep cryptographic operations(hashes and signatures) out of the core business logic.
-● Divide validation into state-dependent and state-independent checks.
-● Use an object oriented data model.
+- Keep everything in memory.
+- Keep the core business logic in a single thread.
+- Keep cryptographic operations(hashes and signatures) out of the core business logic.
+- Divide validation into state-dependent and state-independent checks.
+- Use an object oriented data model.
 
 By following these simple rules, BitShares is theoretically able to process >10,000 (ten thousand) transactions per second without any significant effort devoted to optimization. To put things into perspective3, at peak times, the Ethereum and Bitcoin Blockchain jointly process roughly 0.7% of the peak capacity of BitShares Blockchain (Q1/2018) as prove from distributed stress testing.
 
@@ -126,18 +133,21 @@ Total funds in the working budget / 2924
 
 From this daily budget, block production as well as for project funding are made. Of course, the BTS holders have the choice and need to approve BTS tokens leaving the working budget.
 
-## Block Production (Witnesses)
+## Witnesses
 Block production comes at a cost for running and maintaining equipment. BitShares Blockchain acknowledges this fact by rewarding block producers in core BTS tokens per produced block. Depending on the valuation of BTS, the committee can modify the amount of BTS rewarded per block. As of Q1/2018, each block is rewarded with 1 BTS. Those BTS are taken from the working budget.
 
-## Project Funding (Workers)
-A certain amount of the daily available tokens can be allocated to make development possible by means of workers. Anyone can set up a worker on BitShares Blockchain and ask for a daily allowance in BTS. If the BTS holders approve a particular worker, the BTS are transferred from the daily budget. A Soft-limit defines the maximum amount of the daily budget that is given to all approved workers. Consequently, those workers that have received more votes from BTS holders will receive their funds first. This means that workers, even if approved, may not be funded if the aforementioned threshold is hit. Furthermore, workers constantly stand under the scrutiny of the BTS holders who can disapprove (e.g. fire) workers that do not deliver.
+## Workers
+A certain amount of the daily available tokens can be allocated to make development possible by means of workers for projects funding. Anyone can set up a worker on BitShares Blockchain and ask for a daily allowance in BTS. If the BTS holders approve a particular worker, the BTS are transferred from the daily budget. A Soft-limit defines the maximum amount of the daily budget that is given to all approved workers. Consequently, those workers that have received more votes from BTS holders will receive their funds first. This means that workers, even if approved, may not be funded if the aforementioned threshold is hit. Furthermore, workers constantly stand under the scrutiny of the BTS holders who can disapprove (e.g. fire) workers that do not deliver.
 
-## Transaction Fees & Fee Schedule
+## Fees
 Additional to block production and project funding which can drain tokens from the working budget, there are transaction fees paid by users of BitShares Blockchain that go back into the working budget. As a consequence, the total amount of BTS in the working budget as well as the total in- and out-flow highly varies over time. However, if compared to most proof-of-work-based Blockchains that constantly reward a (more or less) fixed amount of tokens to miners, BitShares Blockchain has a chance to have the working budget grow and consequently the circulating supply shrink. This is the case if the total transactions fees outweigh the tokens used for block production and project funding.
 
 While, the BTS holders have choices to either increase or decrease the funds used for block production and project funding, the committee has the choice to adapt the transaction fees by means of updating the fee schedule. In contrast to other Blockchains, BitShares
 
 Blockchain comes with fixed fees instead of a fee market5. The schedule defines which feature of the Blockchain requires which amount of transaction fee for using it.
 
-## Legality of the BTS token
-It is worth noting that BitShares Blockchain is not a traditional registered entity and has no seat. The core token BTS does not imply any ownership rights. The core token merely serves as a utility for governance, arranging transaction fees and operating other features that are solely implemented on BitShares Blockchain.
+## Legality
+As an infrastructure; BitShares Blockchain is a platform built using an open source code, running by elected nodes (witnesses) from all over the world, it is similar to Bitcoin and Ethereum as an infrastructure, BitShares is not a company nor a trademark or a brand, BitShares Blockchain doesn't have a legal responsibilities as a platform nor as code; users of BitShares Blockchain might have responsibilities or legal obligations for using it toward their legal jurisdiction depending on their own usage and the means behind it. legal entities cannot claim legal responsibilities of an open source code nor a decentralized Blockchain platform, they can operate client interfaces that is interfacing with the Blockchain and can bind to a legal partnerships for the sake of validating Blockchain certain data or can providing services on top of Blockchain platform through their own client interfaces which is interfacing with Blockchain using their own channels, internet domains, witness nodes or API nodes.
+
+BTS the utility token of BitShares Blockchain is used as utility for Blockchain operations fees and as power to participate in assigning active committee Blockchain users, assigning active witness nodes of Blockchain users and vote to issue utility token for development workers which are submitted by Blockchain users.
+
