@@ -217,7 +217,6 @@ body:not([data-platform^=Mac]) * ::-webkit-scrollbar-track{
     -o-tab-size:var(--code-tab-size);
     tab-size:var(--code-tab-size);
     text-align:left;
-    white-space:pre;
     word-spacing:normal;
     word-wrap:normal;
     word-break:break-word;
