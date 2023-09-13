@@ -7,8 +7,8 @@
     text-decoration:none
 }
 .github-corner svg{
-    height:70px;
-    width:70px;
+    height:4.375em;
+    width:4.375em;
     fill:var(--theme-color);
     color:var(--base-background-color)
 }
@@ -299,7 +299,7 @@ pre[data-lang]::selection,pre[data-lang] ::selection,code[class*=lang-]::selecti
     position:relative;
     max-width:var(--content-max-width);
     margin:0 auto;
-    padding:2rem 45px
+    padding:2rem 2.813em
 }
 .app-nav:not(:empty)~main .markdown-section{
     padding-top:3.5rem
@@ -721,7 +721,7 @@ pre[data-lang]::selection,pre[data-lang] ::selection,code[class*=lang-]::selecti
 }
 @media(min-width: 26em){
     .cover h1 span{
-        font-size:calc(var(--cover-heading-font-size-min)*1px + (var(--cover-heading-font-size-max) - var(--cover-heading-font-size-min))*(100vw - 420px)/604)
+        font-size:calc(var(--cover-heading-font-size-min)*1px + (var(--cover-heading-font-size-max) - var(--cover-heading-font-size-min))*(100vw - 26.25em)/604)
     }
 }
 @media(min-width: 64em){
@@ -746,7 +746,7 @@ pre[data-lang]::selection,pre[data-lang] ::selection,code[class*=lang-]::selecti
     z-index:1;
     max-width:var(--cover-max-width);
     margin:var(--cover-margin);
-    padding:0 45px
+    padding:0 2.813em
 }
 .cover .cover-main>p:last-child{
     margin:1.25em -0.25em
@@ -822,13 +822,13 @@ pre[data-lang]::selection,pre[data-lang] ::selection,code[class*=lang-]::selecti
 .app-nav{
     position:absolute;
     z-index:30;
-    top:calc(35px - .5em*var(--base-line-height));
-    left:45px;
-    right:80px;
+    top:calc(2.188em - .5em*var(--base-line-height));
+    left:2.188em;
+    right:5em;
     text-align:right
 }
 .app-nav.no-badge{
-    right:45px
+    right:2.188em
 }
 .app-nav li>img,.app-nav li>a>img{
     margin-top:-0.25em;
@@ -1205,7 +1205,7 @@ body:not([data-platform^=Mac]) .sidebar::-webkit-scrollbar-thumb{
     top:0;
     bottom:0;
     left:0;
-    max-width:40px;
+    max-width:2.5em;
     margin:0;
     padding:0;
     border:0;
@@ -1443,7 +1443,7 @@ body .sidebar{
 }
 .sidebar .search .clear-button{
     margin:0;
-    padding:0 10px;
+    padding:0 0.625em;
     border:none;
     line-height:1;
     background:rgba(0,0,0,0);
@@ -1526,7 +1526,7 @@ body .sidebar{
     --duration-slow: 1s;
     --duration-medium: 0.5s;
     --duration-fast: 0.25s;
-    --spinner-size: 60px;
+    --spinner-size: 3.75em;
     --spinner-track-width: 4px;
     --spinner-track-color: rgba(0, 0, 0, 0.15);
     --spinner-transition-duration: var(--duration-medium)
@@ -1535,7 +1535,7 @@ body .sidebar{
     --base-background-color: #fff;
     --base-color: var(--mono-shade2);
     --base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    --base-font-size: 20px;
+    --base-font-size: 1.25em;
     --base-font-weight: normal;
     --base-line-height: 1.7;
     --emoji-size: calc(var(--base-line-height) * 1em);
