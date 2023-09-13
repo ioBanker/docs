@@ -220,7 +220,7 @@ body:not([data-platform^=Mac]) * ::-webkit-scrollbar-track{
     white-space:pre;
     word-spacing:normal;
     word-wrap:normal;
-    word-break:normal;
+    word-break:break-word;
     -webkit-hyphens:none;
     hyphens:none
 }
