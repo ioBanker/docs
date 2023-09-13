@@ -218,8 +218,7 @@ body:not([data-platform^=Mac]) * ::-webkit-scrollbar-track{
     tab-size:var(--code-tab-size);
     text-align:left;
     word-spacing:normal;
-    word-wrap:normal;
-    word-break:break-word;
+    word-break:break-word !important;
     -webkit-hyphens:none;
     hyphens:none
 }
