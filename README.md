@@ -15,3 +15,4 @@ Maintain BitShares Blockchain documentation and help resources.
 
 Please create a pull request over *master* branch and address your changes.
 
+
