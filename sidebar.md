@@ -1,7 +1,6 @@
 - [About BitShares](/ "BitShares - About BitShares")
-- [WhitePaper - old](whitepaper "BitShares - Whitepaper")
+- [WhitePaper](whitepaper "BitShares - Whitepaper")
 - [Markdown](markdown "BitShares - markdown")
 - [Node](node "BitShares - markdown")
-- [WhitePaper](https://raw.githubusercontent.com/bitshares/whitepaper/main/README.md ':include')
 - **Links**
 - [Official Website](https://bitshares.github.io)
